@@ -9,7 +9,7 @@ function task(name: string, delay:number): Promise<void> {
 
 async function main() {
     await Promise.all([
-        task("Task A", 100),
+        task("Task A", 1000),
         task("Task B", 500)
     ]);
 
